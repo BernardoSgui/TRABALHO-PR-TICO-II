@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px; 
+    flex-wrap: initial;
+}
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: flex-start;
+   
+    gap:  10px;
+}
+.cabecalho{
+    background-color: green;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+}
+.Menu{
+    background-color: orange;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0;
+    flex: auto;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 250px;
+    background-color: aqua;
+    flex: auto;
+    color: white;
+}
+.resumos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.resumo{
+    background-color: palevioletred;
+    padding: 20px;
+    flex: auto;
+    margin: 0 10px;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 0 10px;
+    flex: auto;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+}
+.rodape{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    padding:  15px;
+    gap: 10px;
+}
